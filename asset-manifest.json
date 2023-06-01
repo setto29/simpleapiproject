@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/simpleapiproject/static/css/main.4bdad3b3.css",
+    "main.js": "/simpleapiproject/static/js/main.494d1ea2.js",
+    "static/js/787.48d06a12.chunk.js": "/simpleapiproject/static/js/787.48d06a12.chunk.js",
+    "static/media/Sinerva.woff": "/simpleapiproject/static/media/Sinerva.906e32ebb1cc473f48e9.woff",
+    "static/media/AceSansFree-2O2LX.woff": "/simpleapiproject/static/media/AceSansFree-2O2LX.66a24f8a18a74b328447.woff",
+    "index.html": "/simpleapiproject/index.html",
+    "main.4bdad3b3.css.map": "/simpleapiproject/static/css/main.4bdad3b3.css.map",
+    "main.494d1ea2.js.map": "/simpleapiproject/static/js/main.494d1ea2.js.map",
+    "787.48d06a12.chunk.js.map": "/simpleapiproject/static/js/787.48d06a12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bdad3b3.css",
+    "static/js/main.494d1ea2.js"
+  ]
+}
