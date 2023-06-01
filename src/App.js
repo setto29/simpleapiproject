@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React, { useState } from "react";
 import './App.css';
 
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+  const [content, setQuote] = useState("");
+
+  const getQuote = () => {
+    fetch("https://api.quotable.io/quotes/random").then(
+      (response) => response.json()).then((data)=> {
+        setQuote(data[0].content + " ... " + data[0].author);
+      });
+    };
+
+    return (
+      <div className='tc'>
+        <h4>Inspirational Quote For the Day</h4> 
+       <p> <button onClick={getQuote}>Inspire Me</button> </p>
+      
+      <p className='bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
+        Your Quote For The Day:
+        <p> </p>
+        {content}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        
+        
+      </div>
+    );
 }
 
 export default App;
+

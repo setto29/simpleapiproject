@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'Sinerva Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sinerva Regular'), url('Sinerva.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Ace Sans FREE';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Ace Sans FREE'), url('AceSansFree-2O2LX.woff') format('woff');
+    }
+
+  h4 {
+      font-family: 'Sinerva Regular';
+      font-weight: 200;
+      font-size: xx-large;
+      color: #ffffff;
+  }
+
+  button {
+    font-family: 'Ace Sans FREE';
+      font-weight: 200;
+      color: #000000;
+  }
+
+  p {
+    font-family: 'Ace Sans FREE';
+      font-weight: 200;
+      font-size: x-large;
+      color: #000000;
+  }
